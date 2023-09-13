@@ -1,0 +1,8 @@
+Problem: Commit to GitHub direct from Eclipse failed with following error 
+when attempting to login:
+
+"Can't connect to any repository: https://github.com/pfr59/eclipse2github.git 
+(https://github.com/pfr59/eclipse2github.git: not authorized)"
+
+Solution: Replaced password with personal access token as per: 
+https://stackoverflow.com/questions/30421875/cant-connect-to-any-uri-error-while-commiting-code-from-eclipse-to-git-reposito#:~:text=To%20resolve%20this%20issue%2C%20do%20the%20followings%20login,the%20eclipse%20or%20other%20tools%20you%20are%20using
